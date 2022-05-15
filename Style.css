@@ -157,15 +157,6 @@ input[type=checkbox] {
     background-color: rgb(243, 247, 247);
 }
 
-.container {
-    padding: 14px 16px;
-    position: center;
-    /* margin: 10px; */
-    width: auto;
-    align: center;
-    /* margin-left: 70px; */
-}
-
 .btn {
     margin: 0px;
     border: none;
@@ -253,5 +244,29 @@ input[type=checkbox] {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .container {
+        /* padding: 20px 20px; */
+        position: center;
+        /* margin: 10px; */
+        /* width: auto; */
+        align: center;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+
+@media (min-width: 769px) {
+    .container {
+        /* padding: 20px 20px; */
+        position: center;
+        /* margin: 10px; */
+        /* width: auto; */
+        align: center;
+        margin-left: 75px;
+        margin-right: 75px;
     }
 }
